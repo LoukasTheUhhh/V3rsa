@@ -95,7 +95,7 @@ Here is the roadmap for V3rsa so far:
 
 ---
 
-## 📖 V0.9 – Top 10 Dictionaries to Buy in Versa This Year!!
+## 📖 V0.9 – Top 10 Dictionaries to Buy in V3rsa This Year!!
 *"Lists, dicts, and a thousand methods you'll barely remember."*
 
 **Features:**
@@ -125,13 +125,12 @@ Here is the roadmap for V3rsa so far:
 ---
 
 ## 🗃 V1.5 – Can I Get Version 15, with Author 20, and Date Noon on the Side?
-*"Git good. Versa gets versioned."*
+*"Git good. V3rsa gets versioned."*
 
 **Features:**
-- `!place GV` Gitting Version module
-- Author and date metadata
-- Change notes
-- Rollbacks and snapshot comparisons
+- `!place GV`: Gitting Versions module
+- Author,version and date metadata
+- undo-ing and snapshots
 
 ---
 
