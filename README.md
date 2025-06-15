@@ -3,11 +3,11 @@ V3rsa is a versatible new language that has so much stuff,including version cont
 Fun fact:Versa was before Together Lite/Fast,before releasing its so big i gotta rebrand.\
 Here is the roadmap for V3rsa so far:
 ***
-# 📜 Versa Roadmap
+# 📜 V3rsa Roadmap
 
 ---
 
-## 🐣 V0.1 – Hello Versa!
+## 🐣 V0.1 – Hello V3rsa!
 *"The baby has just been born… and it's already screaming in console."*
 
 **Features:**
@@ -56,7 +56,7 @@ Here is the roadmap for V3rsa so far:
 
 ---
 
-## 🌍 V0.5 – VersaPlanet
+## 🌍 V0.5 – V3rsaPlanet
 *"A new world of polish, cleanup, and improvements."*
 
 **Features:**
@@ -105,7 +105,7 @@ Here is the roadmap for V3rsa so far:
 
 ---
 
-## 🌌 V1.0 – The VersaVerse
+## 🌌 V1.0 – The V3rsaVerse
 *"The universe finally aligns."*
 
 **Features:**
