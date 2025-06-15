@@ -30,14 +30,15 @@ function getCode({
 // Lexer/tokenizer function: input code string → array of tokens
 function tokenize(code) {
   const tokenDefinitions = [
-    ['KEYWORD', /^\b(?:return|vrb|list|str|int|float|bool|declare|!place|!order)\b/],
+    // Order matters: match keywords before identifiers!
+    ['KEYWORD', /^\b(?:vrb|rom|log|prompt|read|delete)\b/],
     ['BOOLEAN', /^\b(?:true|false|maybe)\b/],
-    ['NUMBER', /^-?(?:\d*\.\d+|\d+)(?:[eE][+-]?\d+)?/],
-    ['STRING', /^"([^"\\]*(\\.[^"\\]*)*)"|^'([^'\\]*(\\.[^"\\]*)*)'/],
-    ['OPERATOR', /^(?:\+\+|\-\-|\*\*|\/\/|%%|\^\^|\+=|-=|\*=|\/=|%=|\^=|=<=|=>=|=??|==\-|-\==|=-=|=\?| \+-|\-+|<->|\+\.|-\.\*\*|\*\.|\/\.|\^\.|==|\.\.|\+|\-|\*|\/|%|\^|=|>|<|&|@)/],
-    ['IDENTIFIER', /^[a-zA-Z_][a-zA-Z0-9_]*/],
-    ['PUNCTUATION', /^[,:;{}()]/],
-    ['WHITESPACE', /^\s+/]
+    ['NUMBER', /^-?(?:\d*\.\d+|\d+)/],
+    ['STRING', /^"([^"\\]*(\\.[^"\\]*)*)"|^'([^'\\]*(\\.[^'\\]*)*)'/],
+    ['OPERATOR', /^(?:\+\+|\-\-|\+|\-|\*|\/|%|\^)/],
+    ['IDENTIFIER', /^[a-zA-Z_$][a-zA-Z0-9_$]*/], // Not keywords, handled above
+    ['PUNCTUATION', /^[=();]/],
+    ['WHITESPACE', /^\s+/],
   ];
 
   const tokens = [];
@@ -62,19 +63,22 @@ function tokenize(code) {
     }
 
     if (!matchedToken) {
-      throw new Error(`Oops!We got an unexpected token,known as '${remainingCode[0]}'!Hope you can fix it! :D`);
+      throw new Error(
+        `Unexpected token: '${remainingCode[0]}' — V3rsa is not amused. >:(`
+      );
     }
   }
 
   return tokens;
 }
 
+
 // Public API: Manual trigger to get code and tokenize it
-function runTogetherFast(sourceOptions = {}) {
+function runV3rsa(sourceOptions = {}) {
   const code = getCode(sourceOptions);
 
   if (!code) {
-    console.warn('Wait,', sourceOptions, 'has no Together code!What a tragedy...');
+    console.warn('Wait,', sourceOptions, 'has no V3rsa code!What a tragedy...');
     return [];
   }
 
@@ -89,4 +93,4 @@ function runTogetherFast(sourceOptions = {}) {
 }
 
 // Export only the main function
-export { runTogetherFast };
+export { runV3rsa };
