@@ -10,4 +10,5 @@ Here is a list of them:
  Floats | Numbers like 2.5,9294.295 or 5000.5,with decimals(15 decimals MAX).
  Booleans | `maybe`,`true`,and `false`.
  Functions | Things that run code,being `log()`,`prompt()`,`read()` & `delete()`.
+ Null | `null`,`nil`,`none`,`undefined` & `empty`(all the same thing: basically no value)
  ***
