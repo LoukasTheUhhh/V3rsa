@@ -1,4 +1,5 @@
 # V3rsa🛠
+![V3rsa Logo](Logo.png)
 V3rsa is a versatible new language that has so much stuff,including version control,callbacks,When and WhenL,Forever,Dictionaries,Shapes,and even more.\
 Fun fact:Versa was before Together Lite/Fast,before releasing its so big i gotta rebrand.\
 Here is the roadmap for V3rsa so far:
