@@ -17,7 +17,6 @@ Here is the roadmap for V3rsa so far:
 - Variable declaration with `vrb`
 - Supported types: `string`, `integer`, `float`, `boolean`, `maybe`(new boolean)
 - Arithmetic operators: `+`, `-`, `*`, `/`, `%`, `^`, `++`, `--`
-- Logical operators: `+++` (AND), `///` (OR), `!!!` (NOT)
 - No conditionals or functions yet
 - Uses curly brace syntax
 - Functionality only, no packages yet
@@ -72,6 +71,7 @@ Here is the roadmap for V3rsa so far:
 *"Time functions now included. Ironically, it took time to add them."*
 
 **Features:**
+- `time` package
 - Time functions:`wait()`, `delay()`, etc.
 - Time-based variables and scheduling
 - Debug timers
@@ -82,6 +82,7 @@ Here is the roadmap for V3rsa so far:
 *"Because math and randomness is the fruit of logic."*
 
 **Features:**
+- `math` package
 - Math constants: `pi`, `e`, etc.
 - Math functions: `sqrt()`, `round()`, `abs()`, etc.
 - Random utilities: `random()`, `choose()`, etc.
@@ -121,6 +122,7 @@ Here is the roadmap for V3rsa so far:
 *"Callbacks join the party."*
 
 **Features:**
+- `cb` package
 - Callback functions (`cb fun`, etc.)
 - Event-driven execution
 
@@ -130,7 +132,7 @@ Here is the roadmap for V3rsa so far:
 *"Git good. V3rsa gets versioned."*
 
 **Features:**
-- `!place GV`: Gitting Versions module
+- `gv` package
 - Author,version and date metadata
 - undo-ing and snapshots
 
@@ -140,10 +142,12 @@ Here is the roadmap for V3rsa so far:
 *"Syntax diversity like never before."*
 
 **Features:**
+- Abillity to change keywords to fit your style using `!keywords {...}`
+- Can also change default function names using `!funname {...}`
 - `!mode Curly` – JavaScript/C-style
 - `!mode Pushed` – Python/indented
 - `!mode Classy` – Java-style with classes
-- `!mode Rookie` – Beginner-friendly Versa
+- `!mode Rookie` – Beginner-friendly V3rsa
 
 ---
 
@@ -151,7 +155,7 @@ Here is the roadmap for V3rsa so far:
 *"The treasure chest opens: true powers unleashed."*
 
 **Features:**
-- Shapes from Together Classic
+- Shapes,values inside values inside values inside values inside values
 - Advanced console powers
 - Library and framework support
 - More syntax flexibility
@@ -159,7 +163,7 @@ Here is the roadmap for V3rsa so far:
 
 ---
 
-## 🔧 V2.1+ – Just Bug Fixes and QOL...
+## 🔧 V2.1+ – Bug Spray & Luring
 *"Quietly making things better without fanfare."*
 
 **Features:**
