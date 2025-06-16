@@ -1,7 +1,7 @@
 # V3rsa🛠
 ![V3rsa Logo](V3rsa.png)
 
-V3rsa is a versatible new language that has so much stuff,including version control,callbacks,When and WhenL,Forever,Dictionaries,Shapes,and even more.\
+V3rsa is a versatile new programming language that has so much stuff,including version control,callbacks,When and WhenL,Forever,Dictionaries,Shapes,and even more.\
 Fun fact:Versa was before Together Lite/Fast,before releasing its so big i gotta rebrand.\
 Here is the roadmap for V3rsa so far:
 ***
@@ -15,7 +15,7 @@ Here is the roadmap for V3rsa so far:
 **Features:**
 - Console functions: `log()`,`prompt()`,`read()`,`delete()`
 - Variable declaration with `vrb`
-- Supported types: `string`, `integer`, `float`, `boolean`, `maybe`(new boolean)
+- Supported types: `string`, `integer`, `float`, `boolean`, `maybe`(new boolean) & `null`
 - Arithmetic operators: `+`, `-`, `*`, `/`, `%`, `^`, `++`, `--`
 - No conditionals or functions yet
 - Uses curly brace syntax
