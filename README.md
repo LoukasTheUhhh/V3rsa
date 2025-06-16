@@ -13,7 +13,7 @@ Here is the roadmap for V3rsa so far:
 *"The baby has just been born… and it's already screaming in console."*
 
 **Features:**
-- Console functions: `cs.log()`, `prompt()`, `delete()`
+- Console functions: `log()`,`prompt()`,`read()`,`delete()`
 - Variable declaration with `vrb`
 - Supported types: `string`, `integer`, `float`, `boolean`, `maybe`(new boolean)
 - Arithmetic operators: `+`, `-`, `*`, `/`, `%`, `^`, `++`, `--`
