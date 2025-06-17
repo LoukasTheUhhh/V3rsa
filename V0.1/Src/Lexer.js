@@ -43,7 +43,7 @@ function tokenize(code) {
   return tokens;
 }
 function csshow(text) {
-  document.getElementById('editor').innerHTML = text
+  document.getElementById('output').innerHTML = text
 }
 // Export only the main function
 export { tokenize, csshow };
